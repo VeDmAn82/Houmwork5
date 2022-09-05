@@ -10,7 +10,7 @@ if (!isNumber || length <= 0)
 }
 
 int[] array = GetRandomArray(length);
-PrintArray(GetRandomArray(length));
+PrintArray(array);
 Console.WriteLine();
 Console.Write("Quantity Even Numbers: ");
 Console.WriteLine(GetCountEvenNum(array));
